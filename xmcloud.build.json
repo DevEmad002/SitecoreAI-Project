@@ -1,0 +1,21 @@
+{
+  "deployItems": {
+    "modules": []
+  },
+  "buildTargets": [],
+  "renderingHosts": {
+    "learning-site": {
+      "path": ".",
+      "nodeVersion": "22.11.0",
+      "jssDeploymentSecret": "GQtLUBmHeEDhUn7R2OneM",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
+    }
+  },
+  "transforms": [],
+  "postActions": {
+    "actions": {}
+  }
+}
